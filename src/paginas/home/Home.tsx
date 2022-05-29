@@ -1,11 +1,10 @@
 import React from 'react';
 import './Home.css';
 
-function Home(){
+function Home() {
     return (
         <>
-            <h1 className="titulo">Home</h1>
-            <img src="https://i.imgur.com/rzPqrm6.gif" alt="Gif Inicial" className='img'/>
+            <h1>Home</h1>
         </>
     );
 }
