@@ -7,6 +7,7 @@ import useLocalStorage from 'react-use-localstorage';
 
 
 import './Home.css';
+import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 
 function Home() {
     let navigate = useNavigate();
@@ -30,6 +31,7 @@ function Home() {
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
+                            <ModalPostagem />
                         </Box>
                         <Button className='botao'>Ver Postagens</Button>
                     </Box>
@@ -37,7 +39,6 @@ function Home() {
                 <Grid item xs={6} >
                 
                 <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px" />
-
                 </Grid>
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />

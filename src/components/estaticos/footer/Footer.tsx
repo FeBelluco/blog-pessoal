@@ -2,6 +2,7 @@ import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import {Typography, Box, Grid } from '@material-ui/core';
 import './Footer.css';
 
@@ -15,8 +16,8 @@ function Footer() {
                             <Typography variant="h5" align="center" gutterBottom className='textos'>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <a href="https://www.facebook.com/generationbrasil" target="_blank">
-                                <FacebookIcon className='redes' />
+                            <a href="https://www.instagram.com/felipebelluco/" target="_blank">
+                                <InstagramIcon className='redes' />
                             </a>
                             <a href="https://github.com/FeBelluco" target="_blank">
                                 <GitHubIcon className='redes' />
@@ -31,8 +32,8 @@ function Footer() {
                             <Typography variant="subtitle2" align="center" gutterBottom className='textos' >© 2020 Copyright:</Typography>
                         </Box>
                         <Box>
-                            <a target="_blank" href="https://brasil.generation.org">
-                                <Typography variant="subtitle2" gutterBottom className='textos' align="center">brasil.generation.org</Typography>
+                            <a target="_blank" href="blogpessoalfbl.herokuapp.com">
+                                <Typography variant="subtitle2" gutterBottom className='textos' align="center">blogpessoalfbl.herokuapp.com</Typography>
                             </a>
                         </Box>
                     </Box>
