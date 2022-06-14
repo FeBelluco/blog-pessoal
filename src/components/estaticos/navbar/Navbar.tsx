@@ -13,7 +13,7 @@ function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
       );
-    let navigate = useNavigate();
+    let history = useNavigate();
     const dispatch = useDispatch();
     
         function goLogout(){
@@ -28,7 +28,7 @@ function Navbar() {
             theme: "colored",
             progress: undefined,
         });    
-        navigate('/login')
+        history('/login')
     }
 
     var navbarComponent;

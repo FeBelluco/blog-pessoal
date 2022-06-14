@@ -23,10 +23,10 @@
     background-color: white;
 }
 
-.MuiCardContent-root{
+/*.MuiCardContent-root{
     max-width: 480px;
     max-height: 380px;
-}
+}*/
 
 .text-decorator-none{
     text-decoration: none;
