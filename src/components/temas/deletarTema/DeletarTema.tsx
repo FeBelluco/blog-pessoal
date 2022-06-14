@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import {Box, Card, CardActions, CardContent, Button, Typography} from '@material-ui/core';
 import './DeletarTema.css';
 import { useNavigate, useParams } from 'react-router-dom';
