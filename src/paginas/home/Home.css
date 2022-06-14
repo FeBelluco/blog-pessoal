@@ -1,5 +1,10 @@
 .caixa{
-    background-color: #3F51B5;
+    background-image: url(https://i.imgur.com/WwoBh74.jpg);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
     
 }
 
@@ -16,4 +21,13 @@
 
 .postagens{
     background-color: white;
+}
+
+.MuiCardContent-root{
+    max-width: 480px;
+    max-height: 380px;
+}
+
+.text-decorator-none{
+    text-decoration: none;
 }
