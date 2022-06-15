@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import {Typography, Box, Grid, Button} from '@material-ui/core';
-import TabPostagem from '../../components/postagens/tabPostagem/TabPostagem';
+import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 import { useNavigate } from 'react-router';
 import './Home.css';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
